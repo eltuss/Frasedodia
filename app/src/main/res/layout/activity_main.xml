@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorActivatedHighlight"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/botaoNovaFraseId"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_frase_dia"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_nva_frase"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="81dp" />
+</RelativeLayout>
